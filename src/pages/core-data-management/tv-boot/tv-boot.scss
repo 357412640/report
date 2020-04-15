@@ -1,0 +1,89 @@
+.main-page-box {
+  padding: 20px;
+
+  .filter-box{
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    position: relative;
+    h3{
+      font-weight: bold;
+      font-size: 20px;
+      color: #5A6274;
+    }
+  }
+
+  .icon-btn-box {
+    .common-icon-btn {
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    .echart-icon{
+      width: 20px;
+    }
+  }
+
+  .header-box {
+    justify-content: space-between;
+  }
+
+  .common-btn-box {
+    justify-content: center;
+    flex: 1;
+
+    .common-tab {
+      padding: 5px 15px;
+      margin-right: 5px;
+      border: 1px solid #d9d9d9;
+      min-width: 88px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .common-tab:hover {
+      border-color: #40a9ff;
+      color: #40a9ff;
+    }
+
+    .current-tab {
+      background-color: rgb(24, 144, 255);
+      color: #fff;
+      border-color: rgb(24, 144, 255);
+    }
+
+    .current-tab:hover {
+      background-color: #40a9ff;
+      border-color: #40a9ff;
+      color: #fff;
+    }
+  }
+  .common-table-box{
+    padding-top: 20px;
+    .sel-box{
+      padding-bottom: 10px;
+    }
+  }
+  .chart-box {
+    position: relative;
+    .summary-box {
+      position: absolute;
+      right: 5%;
+      top: 0;
+      font-size: 26px;
+    }
+  }
+}
+.summary-popover {
+  .ant-popover-title {
+    color: #666;
+    font-size: 20px;
+  }
+  .ant-popover-inner-content {
+    font-size: 14px;
+    color: #666;
+  }
+}

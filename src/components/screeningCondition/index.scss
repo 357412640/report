@@ -1,0 +1,62 @@
+.screening-box {
+  color: rgba(0, 0, 0, 0.65);
+  .screen-btn {
+    color: inherit;
+    padding: 0;
+    .screen-btn-icon {
+      border-right: 1px solid #d9d9d9;
+      padding-right: 10px;
+    }
+  }
+  .screen-btn:hover, .screen-btn:active, .screen-btn:focus {
+    color: inherit;
+  }
+  .screening-select {
+    width: 100%;
+  }
+  .multiple {
+    min-width: 200px;
+    width: auto;
+  }
+  .screen-show {
+    border-right: 1px solid #d9d9d9;
+    padding: 0 5px;
+    margin-right: 5px;
+    .circle-icon {
+      padding-left: 5px;
+    }
+  }
+  .screenCon {
+    position: relative;
+    top: 4px;
+    line-height: 16px;
+    display: inline-block;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .ant-input, .ant-input:focus, .ant-input:active {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .ant-calendar-picker:focus .ant-calendar-picker-input:not(.ant-input-disabled) {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .search-list {
+    width: 100%;
+    position: absolute;
+    padding: 20px 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+    z-index: 10;
+    left: 0;
+    .ant-form-item {
+      background-color: #fff;
+    }
+  }
+}

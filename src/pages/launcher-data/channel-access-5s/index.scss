@@ -1,0 +1,49 @@
+.channel-access {
+  .title-box {
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    margin-bottom: 30px;
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      position: relative;
+    }
+    .screenBtn {
+      float: right;
+    }
+    .help-icon {
+      font-size: 14px;
+      position: absolute;
+      top: 0;
+      right: -20px;
+      color: #ccc;
+    }
+  }
+  .active-content {
+    background-color: #fff;
+    .active-btn {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      .ant-radio-button-wrapper {
+        margin: 0 5px;
+        border-left: 1px solid #d9d9d9;
+      }
+      .ant-radio-button-wrapper:hover {
+        border: 1px solid #1890ff;
+      }
+      .ant-radio-button-wrapper:not(:first-child)::before {
+        background-color: initial;
+      }
+      .ant-radio-button-wrapper:first-child, .ant-radio-button-wrapper:last-child {
+        border-radius: 0;
+      }
+    }
+  }
+  .sel-box {
+    display: inline-block;
+    margin-left: 2%;
+  }
+}
+

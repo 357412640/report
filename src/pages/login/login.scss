@@ -1,0 +1,44 @@
+.login-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/login-bg.jpg');
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+
+  .login-box {
+    position: absolute;
+    right: 160px;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 300px;
+
+    .login-form {
+      padding: 10px 16px;
+      background: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+      position: relative;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+
+      .form-header {
+        border-bottom: 1px solid #e8eaec;
+        padding: 14px 16px;
+        line-height: 1;
+        font-weight: bold;
+        margin-bottom: 16px;
+      }
+
+      .login-form-button {
+        width: 100%;
+      }
+
+      .ant-form-item {
+        margin-bottom: 16px;
+        vertical-align: top;
+        zoom: 1;
+      }
+    }
+  }
+}

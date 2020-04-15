@@ -1,0 +1,5 @@
+
+export const TABS_NAV_ADD = 'TABS_NAV_ADD'
+export const TABS_NAV_DELETE = 'TABS_NAV_DELETE'
+export const TABS_CLOSE_ALL = 'TABS_CLOSE_ALL'
+export const TABS_CLOSE_OTHERS = 'TABS_CLOSE_OTHERS'
